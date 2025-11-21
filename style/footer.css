@@ -1,0 +1,63 @@
+footer {
+  font-size: 20px;
+  width: inherit;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer #footer-left-content,
+footer #footer-center-content,
+footer #footer-right-content {
+  display: flex;
+  flex-direction: column;
+}
+footer #footer-left-content button, footer #footer-left-content a, footer #footer-left-content span,
+footer #footer-center-content button,
+footer #footer-center-content a,
+footer #footer-center-content span,
+footer #footer-right-content button,
+footer #footer-right-content a,
+footer #footer-right-content span {
+  margin: 10px;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+footer #footer-left-content #social,
+footer #footer-center-content #social,
+footer #footer-right-content #social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer #footer-left-content #social #social-link,
+footer #footer-center-content #social #social-link,
+footer #footer-right-content #social #social-link {
+  margin: 20px;
+}
+footer #footer-left-content #social #social-link i,
+footer #footer-center-content #social #social-link i,
+footer #footer-right-content #social #social-link i {
+  padding: 2px;
+  border-radius: 100%;
+  color: black;
+  background: white;
+  margin: 5px;
+}
+footer #footer-center-content {
+  align-items: center;
+  justify-content: center;
+}
+footer #footer-center-content i {
+  font-size: 25px;
+}
+@media (max-width: 1200px) {
+  footer #footer-center-content {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

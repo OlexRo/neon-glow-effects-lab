@@ -1,0 +1,18 @@
+.mainModalWindow {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.58);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  transition: visibility 0.4s, opacity 0.4s;
+}
+.mainModalWindow .modalWindow {
+  width: 400px;
+  height: 500px;
+  background: white;
+}
+
+/*# sourceMappingURL=modalWindow.css.map */

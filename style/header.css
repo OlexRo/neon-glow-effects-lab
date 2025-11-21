@@ -1,0 +1,79 @@
+header {
+  font-size: 20px;
+  width: inherit;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav #center-nav button {
+  margin: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+header nav #input {
+  width: 300px;
+  border: 1px solid #F018B3;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav #input i {
+  color: white;
+}
+header nav #input input {
+  padding: 8px;
+  background: none;
+  border: none;
+  outline: none;
+  width: 250px;
+  font-size: 15px;
+}
+header nav i {
+  font-size: 25px;
+  color: black;
+}
+header nav #basket, header nav #user {
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 2px;
+  background: white;
+  cursor: pointer;
+}
+header nav #basket, header nav #burgerMenu {
+  margin: 20px;
+}
+header nav .bx-menu {
+  font-size: 40px;
+  display: none;
+}
+header nav #burgerMenu {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+header nav #burgerMenu i {
+  color: white;
+}
+@media (max-width: 1200px) {
+  header nav #center-nav {
+    display: none;
+  }
+  header nav .bx-menu {
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  header nav #input {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,41 @@
+footer
+  font-size: 20px
+  width: inherit
+  height: 300px
+  display: flex
+  justify-content: space-around
+  align-items: center
+  #footer-left-content,
+  #footer-center-content,
+  #footer-right-content
+    display: flex
+    flex-direction: column
+    button, a, span
+      margin: 10px
+      border: none
+      background: none
+      text-align: left
+      cursor: pointer
+    #social
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      #social-link
+        margin: 20px
+        i
+          padding: 2px
+          border-radius: 100%
+          color: black
+          background: white
+          margin: 5px
+  #footer-center-content
+    align-items: center
+    justify-content: center
+    i
+      font-size: 25px
+  @media (max-width: 1200px)
+    #footer-center-content
+      display: none
+
+

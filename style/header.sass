@@ -1,0 +1,62 @@
+header
+  font-size: 20px
+  width: inherit
+  height: 80px
+  display: flex
+  justify-content: space-around
+  align-items: center
+  overflow: hidden
+  nav
+    display: flex
+    align-items: center
+    #center-nav
+      button
+        margin: 20px
+        border: none
+        background: none
+        cursor: pointer
+    #input
+      width: 300px
+      border: 1px solid #F018B3
+      border-radius: 20px
+      display: flex
+      align-items: center
+      justify-content: center
+      i
+        color: white
+      input
+        padding: 8px
+        background: none
+        border: none
+        outline: none
+        width: 250px
+        font-size: 15px
+    i
+      font-size: 25px
+      color: black
+    #basket, #user
+      border: 1px solid black
+      border-radius: 100%
+      padding: 2px
+      background: white
+      cursor: pointer
+    #basket, #burgerMenu
+      margin: 20px
+    .bx-menu
+      font-size: 40px
+      display: none
+    #burgerMenu
+      border: none
+      background: none
+      cursor: pointer
+      i
+        color: white
+    @media (max-width: 1200px)
+      #center-nav
+        display: none
+      .bx-menu
+        display: block
+    @media (max-width: 600px)
+      #input
+        display: none
+
